@@ -1,3 +1,7 @@
+---
+layout: default
+title: Aaron Li's Home Page
+---
 # Aaron Li
 
 <img src="resources/picture.jpg" height=200px>
