@@ -20,11 +20,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices dolor 
 
 Compares several sorting algorithms.
 
-* Sorting thing
-* Fractals
-* Boids
-* Something Else
-
 ### Boid Simulation
 
 <img src="resources/boids.gif" height=300px>
