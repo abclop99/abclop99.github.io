@@ -1,0 +1,10 @@
+.portfolio-grid-title {
+    background-color: #{{ site.color.primary }};
+
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+
+    padding-top: 0.5em;
+    padding-bottom: 0.68em;
+}
