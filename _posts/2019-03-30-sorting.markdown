@@ -1,12 +1,12 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 2
 title: Sorting Algorithms Comparison
 date: 2019-03-30
 img: sorting.gif
 alt: Sorting
 project-date: 2019
 # client: Start Bootstrap
-category: Personal
+category: Personal Project
 description: Compares different sorting algorithms by sorting scrambled colors.
 ---

@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+title: Flocking Simulation
+date: 2019-03-30
+img: boids.gif
+alt: Flocking Simulation
+project-date: 2019
+# client: Start Bootstrap
+category: Personal Project
+description: "A simulation of flocking behavior in boids <a href=\"https://en.wikipedia.org/wiki/Boids\">test</a>. Boids have three simple rules: separation, alignment, and cohesion."
+---

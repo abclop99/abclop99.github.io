@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: game.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+title: Image Merging using Laplacian Pyramids
+date: 2021-08-05
+img: image-merging.png
+alt: Merging an image of an apple with an image of an orange
+project-date: October 2021
+# client: Start Bootstrap
+category: Personal Project
+description: Merges two images using Laplacian Pyramids
 ---
