@@ -8,3 +8,12 @@
     padding-top: 0.5em;
     padding-bottom: 0.68em;
 }
+
+#link-url {
+    margin-left: 4em;;
+}
+
+#link-url a {
+    color: white;
+    text-decoration: underline;
+}

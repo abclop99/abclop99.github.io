@@ -1,0 +1,15 @@
+      <section class="success" id="links">
+        <div class="container">
+
+            <h2>Links:</h2>
+
+            {% for link in site.data.links %}
+
+                <div id="link">
+                    <p id="link-text">{{ link.text }}</p>
+                    <p id="link-url">Link: <a href="{{ link.url }}">{{ link.url }}</a></p>
+                </div>
+
+            {% endfor %}
+        </div>
+    </section>
