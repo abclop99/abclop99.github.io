@@ -8,5 +8,6 @@ alt: Sorting
 project-date: 2019
 # client: Start Bootstrap
 category: Personal Project
-description: Compares different sorting algorithms by sorting scrambled colors.
+description: |
+    Compares different sorting algorithms by sorting scrambled colors.
 ---

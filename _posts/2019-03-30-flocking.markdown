@@ -8,5 +8,7 @@ alt: Flocking Simulation
 project-date: 2019
 # client: Start Bootstrap
 category: Personal Project
-description: "A simulation of flocking behavior in boids <a href=\"https://en.wikipedia.org/wiki/Boids\">test</a>. Boids have three simple rules: separation, alignment, and cohesion."
+description: |
+    A simulation of flocking behavior in [boids](https://en.wikipedia.org/wiki/Boids). Boids have three simple rules: separation, alignment, and cohesion.
 ---
+test stuff idk

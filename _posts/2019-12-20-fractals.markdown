@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 title: Fractals
-date: 1019-12-20
+date: 2019-12-20
 img: julia-fractal.png
 alt: Image of a Julia Set fractal for the Mandelbrot set
 project-date: December 2019
