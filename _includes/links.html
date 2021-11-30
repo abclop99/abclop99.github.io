@@ -1,13 +1,30 @@
       <section class="success" id="links">
         <div class="container">
 
-            <h2>Links:</h2>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Links:</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
 
-            {% for link in site.data.links %}
+            {% assign links = site.data.links | sort: 'title' %}
+            {% for link in links %}
 
-                <div id="link">
-                    <p id="link-text">{{ link.text }}</p>
-                    <p id="link-url">Link: <a href="{{ link.url }}">{{ link.url }}</a></p>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div id="link">
+
+                            <a href="{{ link.url }}"><h4 class="" id="link-title">{{ link.title }}</h4></a>
+
+                            <div class="col-lg-10 col-lg-offset-1 text-justify text-secondary" id="link-text">
+                                
+                                {{ link.description | markdownify }}
+                                
+                                </div>
+
+                        </div>
+                    </div>
                 </div>
 
             {% endfor %}

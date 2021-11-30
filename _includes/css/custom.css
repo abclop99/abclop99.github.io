@@ -9,11 +9,15 @@
     padding-bottom: 0.68em;
 }
 
-#link-url {
-    margin-left: 4em;;
-}
-
-#link-url a {
+.success a {
     color: white;
     text-decoration: underline;
+}
+
+.success code {
+    color: #{{ site.color.primary }};
+}
+
+.text-indent-4 {
+    text-indent: 4em;
 }
