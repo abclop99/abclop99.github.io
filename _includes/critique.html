@@ -1,0 +1,53 @@
+{% assign article = site.data.critique %}
+
+<section class="" id="critique-article">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2> {{ article.title }} </h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-justify">
+
+                <p class="text-center">Critiqued Article: <a href="{{ article.article-url }}" target="_blank">{{ article.article-title }}</a></p>
+                
+                {{ article.content | markdownify | truncate: 500 }}
+
+                <a href="#critique-modal" data-toggle="modal"> See More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Critique Artical Modal -->
+    <div class="portfolio-modal modal fade" id="critique-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2> {{ article.title }} </h2>
+                            <hr class="star-primary">
+                            
+                            <p class="text-center">Critiqued Article: <a href="{{ article.article-url }}" target="_blank">{{ article.article-title }}</a></p>
+
+                            <div class="text-justify text-indent-4">
+                                {{ article.content | markdownify }}
+                            </div>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
