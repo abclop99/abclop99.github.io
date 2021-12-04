@@ -11,7 +11,13 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-justify">
 
-                <p class="text-center">Critiqued Article: <a href="{{ article.article-url }}" target="_blank">{{ article.article-title }}</a></p>
+                <!-- <p class="text-center">Critiqued Article: <a href="{{ article.article-url }}" target="_blank">{{ article.article-title }}</a></p> -->
+
+                <div class="text-center">
+                    <a href="{{article.article-url}}" target="_blank" class="btn btn-lg btn-outline-primary">
+                        <i class="fa fa-external-link"></i> Critiqued Article
+                    </a>
+                </div>
                 
                 {{ article.content | markdownify | truncate: 500 }}
 
@@ -35,7 +41,11 @@
                             <h2> {{ article.title }} </h2>
                             <hr class="star-primary">
                             
-                            <p class="text-center">Critiqued Article: <a href="{{ article.article-url }}" target="_blank">{{ article.article-title }}</a></p>
+                            <div class="text-center">
+                                <a href="{{article.article-url}}" target="_blank" class="btn btn-lg btn-link btn-outline-primary">
+                                    <i class="fa fa-external-link"></i> Critiqued Article
+                                </a>
+                            </div>
 
                             <div class="text-justify text-indent-4">
                                 {{ article.content | markdownify }}

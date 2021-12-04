@@ -21,3 +21,18 @@
 .text-indent-4 {
     text-indent: 4em;
 }
+
+.btn-outline-primary {
+    margin-top: 15px;
+    border: solid 2px #{{ site.color.primary }};
+    font-size: 20px;
+    color: #{{ site.color.primary }};
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    border: solid 2px #{{ site.color.primary }};
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
