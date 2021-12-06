@@ -22,7 +22,7 @@
     text-indent: 4em;
 }
 
-.btn-outline-primary {
+.btn-outline-primary, .btn-outline-primary:focus {
     margin-top: 15px;
     border: solid 2px #{{ site.color.primary }};
     font-size: 20px;
@@ -35,4 +35,8 @@
     border: solid 2px #{{ site.color.primary }};
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+.btn-link {
+    text-decoration: underline;
 }
