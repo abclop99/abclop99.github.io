@@ -9,5 +9,5 @@ project-date: 2019
 # client: Start Bootstrap
 category: Personal Project
 description: |
-    Compares different sorting algorithms by sorting scrambled colors.
+    Compares different sorting algorithms by sorting scrambled colors in parallel. It shows how fast each algorithm is compared to others. Test \\(\LaTeX\\)
 ---
