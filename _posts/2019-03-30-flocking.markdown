@@ -10,5 +10,11 @@ project-date: 2019
 category: Personal Project
 description: |
     A simulation of flocking behavior in [boids](https://en.wikipedia.org/wiki/Boids). Boids have three simple rules: separation, alignment, and cohesion.
+
+    This program simulates flocking behavior in birds, fish, etc. Boids' flocking behavior is emergent from a few simple rules:
+    - Separation: Each boid moves away from nearby boids.
+    - Alignment: Each boid attempts to match the speed and direction of the boids surrounding it.
+    - Cohesion: Each boid attempts to go toward the center of mass of the nearby boids.
+
+    The program implements the three rules and attempts to make the boids try to avoid obstacles.
 ---
-test stuff idk
