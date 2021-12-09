@@ -19,9 +19,11 @@
                     </a>
                 </div>
                 
-                {{ article.content | markdownify | truncate: 500 }}
+                <div class="text-indent-4">
+                    {{ article.content | markdownify | truncate: 500 }}
+                    <a href="#critique-modal" data-toggle="modal"> See More</a>
+                </div>
 
-                <a href="#critique-modal" data-toggle="modal"> See More</a>
             </div>
         </div>
     </div>
