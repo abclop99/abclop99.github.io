@@ -9,5 +9,15 @@ project-date: 2019
 # client: Start Bootstrap
 category: Personal Project
 description: |
-    Compares different sorting algorithms by sorting scrambled colors in parallel. It shows how fast each algorithm is compared to others. Test \\(\LaTeX\\)
+    Compares different sorting algorithms by sorting scrambled colors in parallel. It shows how fast each algorithm is compared to others. The program implements a variety of sorting algorithms including
+    - Bubble Sort
+    - Cocktail Shaker Sort
+    - Merge Sort
+    - Heap Sort
+    - Radix Sort
+
+    Running the program with a large height (number of values to sort) shows a clear difference between algorithms that are \\(O(n^2)\\) and algorithms are \\(O(n\log n)\\) and shows smaller differences such as between using different methods to create a heap in HeapSort.
+
+    This program was inspired by many videos/GIFs of sorting algorithms.
+
 ---
