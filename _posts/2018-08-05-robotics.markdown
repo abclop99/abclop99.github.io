@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 5
+title: FIRST Tech Challenge
+date: 2018-08-05
+img: ftc.jpg
+alt: FIRST Tech Challenge video
+project-date: October 2018
+# client: Start Bootstrap
+category: TODO Change
+description: |
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lRm6y21AiMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+---
