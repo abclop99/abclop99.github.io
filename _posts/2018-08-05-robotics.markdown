@@ -7,7 +7,7 @@ img: ftc.jpg
 alt: FIRST Tech Challenge video
 project-date: October 2018
 # client: Start Bootstrap
-category: TODO Change
+category: Competition
 description: |
     FIRST Tech Challenge San Diego Regional Championship 2016 season RES-Q. Team 9920, the Furious Falcons won 2nd place and the Control award. The Drivers: Aaron Li; Cynthia Li
     

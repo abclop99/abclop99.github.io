@@ -8,6 +8,8 @@ alt: Flocking Simulation
 project-date: 2019
 # client: Start Bootstrap
 category: Personal Project
+link: https://github.com/abclop99/flocking
+link-text: github.com
 description: |
     A simulation of flocking behavior in [boids](https://en.wikipedia.org/wiki/Boids). Boids have three simple rules: separation, alignment, and cohesion.
 
@@ -16,5 +18,7 @@ description: |
     - Alignment: Each boid attempts to match the speed and direction of the boids surrounding it.
     - Cohesion: Each boid attempts to go toward the center of mass of the nearby boids.
 
-    The program implements the three rules and attempts to make the boids try to avoid obstacles.
+    The program implements the three rules and attempts to make the boids try to avoid obstacles (poorly).
+
+    The program was originally written in Java then converted to Kotlin, and uses the Processing library for graphics.
 ---

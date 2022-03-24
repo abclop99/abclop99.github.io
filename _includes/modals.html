@@ -33,8 +33,21 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.link %}
+                                    <li>Link:
+                                        <strong> 
+                                            <a href="{{ post.link }}">
+                                                {% if post.link-text %}
+                                                    {{ post.link-text }}
+                                                {% else %}
+                                                    {{ post.link }}
+                                                {% endif %}
+                                            </a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
                                 {% if post.category %}
-                                    <li>Service:
+                                    <li>Category:
                                         <strong>{{ post.category }}
                                         </strong>
                                     </li>

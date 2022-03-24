@@ -8,6 +8,8 @@ alt: Merging an image of an apple with an image of an orange
 project-date: October 2021
 # client: Start Bootstrap
 category: Personal Project
+link: https://github.com/abclop99/image-pyramid-merging
+link-text: github.com
 description: |
     This probram merges two images using Laplacian Pyramids.
     - Generates Laplacian pyramids for each image by taking the difference between layers in its Gaussian pyramid, merges each layer using a generated gradient, and reconstructs an image from the new Laplacian pyramid.
