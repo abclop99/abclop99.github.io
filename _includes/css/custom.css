@@ -9,6 +9,16 @@
     padding-bottom: 0.68em;
 }
 
+.portfolio-grid-image {
+    
+    background: rgba(255, 255, 255, .95);
+    border-radius: 1rem;
+}
+
+.portfolio-modal p>img {
+    max-width: 90%;
+}
+
 .success a {
     color: white;
     text-decoration: underline;
