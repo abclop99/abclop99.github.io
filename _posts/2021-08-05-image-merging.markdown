@@ -11,7 +11,7 @@ category: Personal Project
 link: https://github.com/abclop99/image-pyramid-merging
 link-text: github.com
 description: |
-    This probram merges two images using Laplacian Pyramids.
+    This program merges two images using Laplacian Pyramids.
     - Generates Laplacian pyramids for each image by taking the difference between layers in its Gaussian pyramid, merges each layer using a generated gradient, and reconstructs an image from the new Laplacian pyramid.
     - User interface created using [Qt](https://www.qt.io/)
       - Allows choosing any two images to merge and changing the gradient used to merge the images.
