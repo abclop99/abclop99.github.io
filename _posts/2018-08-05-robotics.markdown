@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 5
+modal-id: 0
 title: FIRST Tech Challenge
 date: 2018-08-05
 img: ftc.jpg
