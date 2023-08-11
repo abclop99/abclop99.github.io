@@ -3,7 +3,7 @@
 layout: default
 modal-id: 5
 title: Design ISA and Processor
-date: 2021-08-05
+date: 2023-03-17
 img: architecture-diagram.svg
 alt: Simplified architecture diagram of the proccessor I designed
 project-date: Winter 2023
