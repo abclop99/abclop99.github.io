@@ -55,9 +55,9 @@ social:
     - title: github
       url: https://github.com/abclop99
       rel: me
-    - title: mastodon
-      url: https://mastodon.social/@abclop99
-      rel: me
+ #   - title: mastodon
+ #     url: https://mastodon.social/@abclop99
+ #     rel: me
 
 # Postal address (add as many lines as necessary)
 address:
