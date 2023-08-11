@@ -51,8 +51,13 @@ social:
   #   url: http://github.com/jekyll
     - title: linkedin
       url: https://www.linkedin.com/in/aaron-li-029843222/
+      rel: me
     - title: github
       url: https://github.com/abclop99
+      rel: me
+    - title: mastodon
+      url: https://mastodon.social/@abclop99
+      rel: me
 
 # Postal address (add as many lines as necessary)
 address:
