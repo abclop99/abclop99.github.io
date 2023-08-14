@@ -1,7 +1,7 @@
 ---
 
 layout: default
-modal-id: 5
+modal-id: 7
 title: Design ISA and Processor
 date: 2023-03-17
 img: architecture-diagram.svg
