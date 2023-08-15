@@ -59,3 +59,15 @@
 ul {
     font-size: 20px;
 }
+
+/* Skills without icon */
+.skill-name {
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    letter-spacing:-0.1rem;
+    
+    outline: 1px solid white;
+    background: rgba(255, 255, 255, 0.1);
+}
