@@ -3,8 +3,30 @@ title: Aaron Li
 email: a1li@ucsd.edu
 url: https://github.com/abclop99/abclop99.github.io
 description: "Aaron Li's personal website"
-keywords: "Aaron Li, Personal website, Programmer, "
-skills: "Recent Computer Science graduate from UCSD"
+keywords: "Aaron Li, Personal website, Programmer, Rust, "
+short_about: "Recent Computer Science graduate from UCSD"
+skills: 
+  - name: Rust
+    class: nf nf-dev-rust
+  - name: C++
+    class: nf nf-custom-cpp
+  - name: C
+    class: nf nf-custom-c
+  - name: Kotlin
+    class: nf nf-md-language_kotlin
+  - name: SystemVerilog
+  - name: Java
+    class: nf nf-dev-java
+  - name: Python
+    class: nf nf-dev-python
+  - name: \(\LaTeX\)
+    is_logo: true
+  - name: Arch Linux
+    class: nf nf-linux-archlinux
+  - name: WGPU
+  - name: WGSL
+  - name: Jekyll
+    class: nf nf-dev-jekyll_small
 meta_author: Aaron Li
 
 # Google webmaster tools

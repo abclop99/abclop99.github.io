@@ -7,7 +7,24 @@
         <div class="intro-text">
           <span class="name">{{ site.title }}</span>
           <hr class="star-light" />
-          <span class="skills">{{ site.skills }}</span>
+          <p class="short_about">{{ site.short_about }}</p>
+          <ul class="skills list-inline">
+            {% for skill in site.skills %}
+              <li class="skill-item">
+                {% if skill.class %}
+                  <i class="{{skill.class}}"></i>
+                {% elsif skill.name %}
+                  <span class="
+                    {% if skill.is_logo != true %}
+                      skill-name
+                    {% endif %}
+                    ">
+                    {{skill.name}}
+                  </span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
