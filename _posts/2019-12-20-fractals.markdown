@@ -7,7 +7,8 @@ img: julia-fractal.png
 alt: Image of a Julia Set fractal for the Mandelbrot set
 project-date: December 2019
 category: Personal Project
-link: Mandelbrot.kt
+link-text: Mandelbrot.kt
+link: files/portfolio/Mandelbrot.kt
 description: |
     A program originally created in Kotlin that generates images of the Mandelbrot set and Julia sets for the mandelbrot set. 
 
