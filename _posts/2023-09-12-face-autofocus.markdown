@@ -2,7 +2,7 @@
 
 layout: default
 modal-id: 8
-title: Face Autofocus
+title: "Nvidia Jetson: Face Autofocus"
 date: 2023-09-12
 img: face-autofocus.webp
 alt: TODO
@@ -14,6 +14,7 @@ link-text: github.com
 description: |
     This program is ArduCam's `FocuserExample.py` modified to autofocus on any
     detected faces, if any, when `f` is pressed.
+    It runs on an Nvidia Jetson Orin NX 16G.
 
     - It uses Mediapipe's face detection to acquire face bounding boxes.
     - Modified `JetsonCamera.py` to accept a function to modify the displayed image
